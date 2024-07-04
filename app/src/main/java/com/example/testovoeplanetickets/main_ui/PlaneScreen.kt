@@ -255,16 +255,10 @@ private fun TextField(
     selectedText: SelectedText
 )
 {
-    Log.d("dsad", selectedText.selectedDestination.value.toString())
-
     var text by remember {
-        mutableStateOf(
-            selectedText.selectedDestination.value?.toString() ?: ""
+        mutableStateOf(selectedText.selectedDestination.value.toString()
         )
     }
-
-
-
 
     val focusManager = LocalFocusManager.current
 

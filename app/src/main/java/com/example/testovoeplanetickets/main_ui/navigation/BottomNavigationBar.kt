@@ -38,7 +38,7 @@ fun BottomNavigationBar(navController: NavHostController)
             NavigationBarItem(selected = currentRoute == item.route,
                 onClick = { navController.navigate(item.route)},
                 icon = { Icon(painter = painterResource(id = item.icon), contentDescription ="",Modifier.size(24.dp) ) },
-                label = { Text(text = item.title, fontSize = 10.sp)},
+                label = { Text(text = item.title, fontSize = 9.sp)},
                 colors = NavigationBarItemColors(
                     selectedIconColor = SpecialBlue,
                     selectedTextColor = SpecialBlue,

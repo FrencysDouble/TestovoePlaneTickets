@@ -1,14 +1,11 @@
 package com.example.testovoeplanetickets.cache
 
 import android.content.SharedPreferences
+import android.util.Log
 
 class CacheDataManager(private val sharedPreferences: SharedPreferences) {
 
-    init {
-        if ( getData("search_bar_1").isBlank()) {
-            saveData("search_bar_1", "")
-        }
-    }
+
 
     fun saveData(key: String, value: String) {
         val editor = sharedPreferences.edit()
@@ -17,6 +14,7 @@ class CacheDataManager(private val sharedPreferences: SharedPreferences) {
     }
 
     fun getData(key: String): String {
-        return sharedPreferences.getString(key, null).toString()
+        val defaultValue = ""
+        return sharedPreferences.getString(key, defaultValue) ?: defaultValue
     }
 }

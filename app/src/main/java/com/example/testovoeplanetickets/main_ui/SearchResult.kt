@@ -47,7 +47,6 @@ import com.example.testovoeplanetickets.ui.theme.BasicGrey5
 import com.example.testovoeplanetickets.ui.theme.SpecialBlue
 
 
-@RequiresApi(Build.VERSION_CODES.O)
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 fun SearchResult(
@@ -68,7 +67,6 @@ fun SearchResult(
 }
 
 
-@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 private fun ScreenR(
     controller: SearchScreenController,
@@ -94,7 +92,6 @@ private fun ScreenR(
 
 }
 
-@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 private fun UpBar(
     selectedText: SelectedText,

@@ -72,7 +72,6 @@ class SearchScreenController(private val mainMenuApiInterface: MainMenuApiInterf
         }
     }
 
-    @RequiresApi(Build.VERSION_CODES.O)
     fun getCurrentDate(): String {
         val currentDate = LocalDate.now()
         val formatter = DateTimeFormatter.ofPattern("dd MMM", Locale("ru"))
