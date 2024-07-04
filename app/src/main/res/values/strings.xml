@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TestovoePlaneTickets</string>
+    <string name="plane_screen_title_part_1">Поиск дешевых</string>
+    <string name="plane_screen_title_part_2">Авиабилетов</string>
+    <string name="plane_screen_search_1">Откуда - Москва</string>
+    <string name="plane_screen_search_2">Куда - Турция</string>
+    <string name="plane_screen_list_title">Музыкально отлететь</string>
+    <string name="plane_screen_btn_txt">Показать все места</string>
+    <string name="dialog_bar_icon_txt_1">Сложный маршрут</string>
+    <string name="dialog_bar_icon_txt_2">Куда угодно</string>
+    <string name="dialog_bar_icon_txt_3">Выходные</string>
+    <string name="dialog_bar_icon_txt_4">Горячие билеты</string>
+    <string name="dialog_bar_list_endtitle">Популярное направление</string>
+    <string name="search_screen_list_title">Прямые рейсы</string>
+    <string name="search_screen_show_all">Показать все</string>
+    <string name="search_screen_btn1">Посмотреть все билеты</string>
+    <string name="search_screen_subscribe_pice">Подписка на цену</string>
+</resources>
